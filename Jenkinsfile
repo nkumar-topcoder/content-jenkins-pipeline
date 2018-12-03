@@ -6,7 +6,7 @@ steps {
 sh 'javac -d . src/*.java'
 sh 'echo Main-Class: Rectangulator > MANIFEST.MF'
 sh 'jar -cvmf MANIFEST.MF rectangle.jar *.class'
-  AWS_ACCOUNT_ID=123456789077
+  AWS_ACCOUNT_ID=123456789088
 }
 }
 }
